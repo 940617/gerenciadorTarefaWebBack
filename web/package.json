@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "add": "^2.0.6",
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "yarn": "^1.22.17"
+  }
 }
